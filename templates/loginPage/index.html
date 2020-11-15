@@ -1,0 +1,163 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div id="video-container">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="inner">
+              <h1>Welcome to <em>Speeding Tickets - UTAH</em></h1>
+              <p>A public database for recording speeding tickets in Utah Valley</p>
+              <p>Enter your data so a future someone doesn't have to </p>
+                <div class="scroll-icon">
+                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="{% static 'img/scroll-icon.png' %}" alt=""></a>
+                </div>    
+            </div>
+        </div>
+        <video autoplay="" loop="" muted>
+        	<source src="{% static 'highway-loop.mp4' %}" type="video/mp4" />
+        </video>
+    </div>
+
+
+    <div class="full-screen-portfolio" id="portfolio">
+        <div class="container-fluid">
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_4.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Provo <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Provo</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_4.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_2.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Orem <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Orem</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_2.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_3.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Springville <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Springville</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_3.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_1.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Spanish Fork <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Spanish Fork</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_1.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_5.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Pleasant Grove <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Pleasant Grove</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_5.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_6.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Lehi <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Lehi</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_6.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_7.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Saratoga Springs <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Saratoga Springs</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_7.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="portfolio-item">
+                    <a href="{% static 'img/big_portfolio_item_8.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Highland <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received in Highland</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_8.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+            	<div class="portfolio-item">
+                	<a href="{% static 'img/big_portfolio_item_9.png' %}" data-lightbox="image-1"><div class="thumb">
+                        <div class="hover-effect">
+                            <div class="hover-content">
+                                <h1>Other City <em>Utah</em></h1>
+                                <p>Enter a speeding ticket received for any other city in Utah Valley</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{% static 'img/portfolio_item_9.png' %}">
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}

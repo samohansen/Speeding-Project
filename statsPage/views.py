@@ -5,4 +5,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def statsPageView(request) :
-    return HttpResponse('This is the stats Page')
+    return HttpResponse('This is the stats Page!!')
