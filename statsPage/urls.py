@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import statsPageView
+from .views import statsPageView, enterDataPageView
 
 urlpatterns = [
-    path("stats/", statsPageView, name="stats")
+    path("enterdata/", enterDataPageView, name="enterData"),
+    path("display/", statsPageView, name="display")
 ]
