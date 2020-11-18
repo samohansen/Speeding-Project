@@ -1,8 +1,8 @@
 from django.shortcuts import render
-
-# Create your views here.
-
 from django.http import HttpResponse
 
-def statsPageView(request) :
-    return HttpResponse('This is the stats Page!!')
+def statsPageView(request):
+    return render(request, 'statsPage/showData.html')
+
+def enterDataPageView(request):
+    return render(request, 'statsPage/enterData.html')
